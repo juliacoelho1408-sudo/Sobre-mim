@@ -1,45 +1,93 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
+/* Fundo da página */
+body{
+    background-color: #FFF8E7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-    <div class="caixa">
+/* Caixa principal do site */
+.caixa{
+    background-color: white;
+    border: 3px solid #CDB4DB;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
 
-        <h1>Sobre Mim</h1>
 
-        <!-- COLE O LINK DA SUA IMAGEM ENTRE AS ASPAS -->
-        <img src="COLE_O_LINK_DA_SUA_IMAGEM_AQUI" alt="Minha foto">
+/* Título principal */
+h1{
+    color: #A855F7;
+    text-align: center;
+    font-size: 40px;
+}
 
-        <h2>Minhas Habilidades</h2>
 
-        <ul>
-            <li>Jogo videogames muito bem.</li>
-            <li>Sei fazer sons de passarinhos.</li>
-        </ul>
+/* Subtítulos */
+h2{
+    color: #C084FC;
+    margin-top: 30px;
+}
 
-        <h2>Meus Gostos</h2>
 
-        <ul>
-            <li>Animais.</li>
-            <li>Undertale.</li>
-            <li>Videogames.</li>
-            <li>Animes.</li>
-        </ul>
+/* Textos */
+p{
+    color: #333333;
+    line-height: 1.6;
+    font-size: 18px;
+}
 
-        <h2>Uma Curiosidade</h2>
 
-        <p>
-            Eu zerei o meu primeiro videogame quando tinha 6 anos! Foi aí que eu comecei
-            a gostar ainda mais de jogos e hoje eles são uma das minhas coisas favoritas.
-        </p>
+/* Listas */
+li{
+    color: #333333;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
 
-    </div>
 
-</body>
-</html>
+/* Foto do começo do site */
+img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 4px solid #CDB4DB;
+}
+
+
+/* Imagem favorita do final do site */
+.imagem-final{
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 4px solid #CDB4DB;
+}
+
+
+/* Ajustes para celular */
+@media (max-width: 600px){
+
+    .caixa{
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    img{
+        width: 200px;
+    }
+
+    .imagem-final{
+        width: 250px;
+    }
+
+}
